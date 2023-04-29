@@ -1,6 +1,6 @@
 {
   "name": "suspense-overlay-wts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Suspense, which shows the fallback on top of previous content.",
   "keywords": [
     "react",
