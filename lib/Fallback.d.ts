@@ -20,5 +20,5 @@ interface Props extends React.ComponentProps<typeof Overlay> {
     open: boolean;
     Overlay?: typeof defaults.Overlay;
 }
-export default function Fallback(props: Props): import("@emotion/react/jsx-runtime").JSX.Element;
+export default function Fallback(props: Props): JSX.Element;
 export {};

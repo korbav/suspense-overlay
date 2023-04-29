@@ -19,5 +19,5 @@ interface Props extends React.ComponentProps<typeof Suspense>, Omit<React.Compon
     Fallback?: typeof defaults.Fallback;
     contained?: boolean;
 }
-export default function SuspenseOverlay(props: Props): import("@emotion/react/jsx-runtime").JSX.Element;
+export default function SuspenseOverlay(props: Props): JSX.Element;
 export { SuspenseOverlayCore };

@@ -4,4 +4,4 @@ export interface SuspenseOverlayCoreProps extends React.ComponentProps<typeof Su
     fallback: React.ReactElement;
     inProp?: string;
 }
-export default function SuspenseOverlayCore({ children, fallback, inProp, }: SuspenseOverlayCoreProps): import("@emotion/react/jsx-runtime").JSX.Element;
+export default function SuspenseOverlayCore({ children, fallback, inProp, }: SuspenseOverlayCoreProps): JSX.Element;
