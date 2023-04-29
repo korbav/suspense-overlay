@@ -1,5 +1,5 @@
 {
-  "name": "suspense-overlay",
+  "name": "suspense-overlay-wts",
   "version": "1.0.1",
   "description": "Suspense, which shows the fallback on top of previous content.",
   "keywords": [
