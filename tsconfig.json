@@ -1,25 +1,28 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "outDir": "lib",
-    "allowSyntheticDefaultImports": true,
-    "declaration": true,
-    "forceConsistentCasingInFileNames": true,
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "module": "esnext",
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "CommonJS",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
     "moduleResolution": "node",
-    "newLine": "lf",
-    "noEmitOnError": true,
-    "noImplicitReturns": true,
+    "allowImportingTsExtensions": false,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "declaration": true,
+    "declarationDir": "./lib",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "outDir": "./lib",
+
+    /* Linting */
+    "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noUncheckedIndexedAccess": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "sourceMap": true,
-    "target": "es2019",
-    "jsxImportSource": "@emotion/react"
+    "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src"],
 }

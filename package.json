@@ -15,7 +15,7 @@
     "name": "Arno Saine",
     "email": "arno@mowhi.com"
   },
-  "type": "module",
+  "type": "commonjs",
   "exports": {
     ".": "./lib/main.js",
     "./lib": "./lib/main.js",
